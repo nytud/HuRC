@@ -11,18 +11,24 @@ The data was collected from the online news of Népszabadság online (nol.hu).
 ## Data format
 
 The data files are in json format. The keys are the following:
+
 `id`: unique id of the instances;
+
 `lead`: a short summary of the article as it was extracted from the source texts;
+
 `passage`: 3-6 paragraphs of texts as the body of the article;
+
 `query`: the last paragraph of an article, some kind of summary or conclusion, with a named entity masked (with [MASK]) in it;
+
 `MASK`: the masked named entity. 
 
 ## Guidelines
 
-Later...
+Annotation guidelines are available (in Hungarian) in the guidelines folder.
 
 ## License and usage
 
+HuRC is released under the cc-by-4.0 license.
 
 ## Citation
 
