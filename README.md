@@ -4,7 +4,7 @@ This is the home repository for the Hungarian Corpus for Reading Comprehension w
 
 ## Data
 
-The files are in the 'data' folder. The dataset contains 80 621 instances. Each instance is composed of a passage and a cloze-style query with a masked entity. The task is to select the named entity that is being masked in the query.
+The can be found at this [link](https://nc.nlp.nytud.hu/s/3N7nHTC3nk8GxH6). The dataset contains 80 621 instances. Each instance is composed of a passage and a cloze-style query with a masked entity. The task is to select the named entity that is being masked in the query.
 
 The data was collected from the online news of Népszabadság online (nol.hu).
 
