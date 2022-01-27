@@ -11,14 +11,11 @@ The data was collected from the online news of Népszabadság online (nol.hu).
 ## Data format
 
 The data files are in json format. The keys are the following:
-
-`idx`: unique id of the instances;
-
-`passage`: 2-3 paragraphs of a news article;
-
-`query`: the last paragraph of the article with a masked named entity; 
-
-`answers`: a list of the possible answers, where each answer consists of an id and a string.  
+`id`: unique id of the instances;
+`lead`: a short summary of the article as it was extracted from the source texts;
+`passage`: 3-6 paragraphs of texts as the body of the article;
+`query`: the last paragraph of an article, some kind of summary or conclusion, with a named entity masked (with [MASK]) in it;
+`MASK`: the masked named entity. 
 
 ## Guidelines
 
